@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background */
+.bg-gradient {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Card */
+.custom-card {
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Buttons */
+.btn:hover {
+    transform: scale(1.03);
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #6c63ff;
+}
